@@ -23,5 +23,5 @@ cargo build --release
 Put the binary (`target/release/typescript-usequery-checker`) somewhere in your `$PATH`.
 Then call it with fd at the root of your project:
 ```
-fd -e ts -e tsx -x typescript-usequery-checker {}
+fd -e ts -e tsx -x typescript-usequery-checker
 ```
