@@ -1,0 +1,11 @@
+[package]
+name = "typescript-usequery-checker"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tree-sitter = "0.25"
+tree-sitter-typescript = "0.23"
+
+[build-dependencies]
+cc = "*"
