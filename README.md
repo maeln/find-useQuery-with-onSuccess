@@ -25,3 +25,7 @@ Then call it with fd at the root of your project:
 ```
 fd -e ts -e tsx -x typescript-usequery-checker
 ```
+
+# Note
+
+This script only check for `onSuccess` cause i am a lazy bastard and cannot be bothered, but modifying it to check for the 2 other callback is so easy it would have been faster to do it than to write this sentence.
